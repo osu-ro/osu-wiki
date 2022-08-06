@@ -2,7 +2,7 @@
 
 Titlurile de utilizator sunt, de obicei, asociate cu [grupuri de utilizatori](/wiki/People/The_Team#user-groups), dar utilizatorii de mai jos și-au primit titlurile din alte motive. Majoritatea titlurilor au fost premii pentru contribuții sau realizări, restul reprezentând momente amuzante sau simbolice istoriei osu!.
 
-## Current World Cup title holders
+## Deținătorii actuali ai titlului de câștigător a cupelor mondiale oficiale
 
 În fiecare an, câștigătorii [cupelor mondiale oficiale](/wiki/Tournaments#official-world-cups) sunt răsplătiți prin titlurile de **osu!/osu!taiko/osu!catch/osu!mania Champion** care durează până la concluzionarea următoarei ediții a cupei mondiale.
 
