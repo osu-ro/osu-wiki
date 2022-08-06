@@ -1,0 +1,31 @@
+separator: ", "
+alumni:
+  roles:
+    academy: fondator academia osu!
+    admin: administrator
+    chat: moderare chat
+    dev: dezvoltator osu!
+    media: creator media osu!
+    support: echipa de suport
+    tournaments: manager turnee
+gmt:
+  all_mods: toți moderatorii
+  areas:
+    beatmap: moderare beatmap
+    chat: moderare chat
+    forum: moderare forum
+    team: official team presence
+    dev: dezvoltare osu!
+    player: suport jucători
+    support: suport tehnic
+    tournaments: manager turnee
+    wiki: administrator wiki
+    mapping: moderarea comunității de mapping și modding
+nat:
+  areas:
+    communication: comunicare
+    evaluation: evaluare
+    moderation: moderare
+    structural: structural
+languages:
+  partial: parțial <language>
