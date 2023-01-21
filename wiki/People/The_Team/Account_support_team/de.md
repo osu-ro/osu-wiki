@@ -1,4 +1,6 @@
-<!-- TODO: change links as soon as German articles are available (line 42, 46 and 47) -->
+---
+no_native_review: true
+---
 
 # Account-Support-Team
 
@@ -33,7 +35,7 @@ Du solltest das Team zu Account-bezogenen Themen kontaktieren, über die du kein
 
 ### [support@ppy.sh](mailto:support@ppy.sh)
 
-*Tipp: Um einen extremen Fall von Fehlverhalten oder sexuellem Missbrauch von jeglichem Benutzer, ebenso Moderatoren, zu melden, siehe [Missbrauch melden](/wiki/Reporting_bad_behaviour/Abuse).*
+*Anmerkung: Um einen extremen Fall von Fehlverhalten oder sexuellem Missbrauch von jeglichem Benutzer, ebenso Moderatoren, zu melden, siehe [Missbrauch melden](/wiki/Reporting_bad_behaviour/Abuse).*
 
 - Bedenken über das Fehlverhalten eines Moderators.
 - Bedenken über einen Moderator, der die [Richtlinien für Mitwirkende](/wiki/Contributor_Code_of_Conduct) bricht.
@@ -42,5 +44,5 @@ Du solltest das Team zu Account-bezogenen Themen kontaktieren, über die du kein
 
 ### [privacy@ppy.sh](mailto:privacy@ppy.sh)
 
-- [Anfrage der Daten](/wiki/Legal/Privacy#data-controller) und Bedenken bei der Privatsphäre.
-- Anfrage für die **dauerhafte** [Löschung des Accounts](/wiki/Legal/Privacy#your-rights-and-control).
+- [Anfrage der Daten](/wiki/Legal/Privacy#datenschutzbeauftragter) und Bedenken bei der Privatsphäre.
+- Anfrage für die **dauerhafte** [Löschung des Accounts](/wiki/Legal/Privacy#ihre-rechte-und-kontrolle).

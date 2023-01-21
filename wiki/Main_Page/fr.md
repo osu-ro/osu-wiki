@@ -96,9 +96,11 @@ Faites votre part : [Comment et avec quoi aider](/wiki/Community/How_you_can_hel
 
 L'interaction sociale est l'une des principales choses qui alimentent les joueurs d'osu! dans le monde entier. Explorez les activités et les concours, entrez en contact avec d'autres personnes ou aidez à organiser le prochain grand événement !
 
+Lieux d'échanges : [Forum](/wiki/Community/Forum) • [IRC](/wiki/Community/Internet_Relay_Chat)
+
 [Tournois](/wiki/Tournaments) • [Beatmap Spotlights](/wiki/Beatmap_Spotlights) • [Concours](/wiki/Contests) • [Community mentorship program](/wiki/Community/Community_Mentorship_Program)
 
-[Projets](/wiki/Community/Projects) : [Featured Artists](/wiki/Featured_Artists) • [osu! community meetings](/wiki/Community/osu!_community_meetings) • [osu!academy](/wiki/Community/Video_series/osu!academy) • [osu!mapping](/wiki/Community/Video_series/osu!mapping) • [osu!talk](/wiki/Community/Video_series/osu!talk)
+[Projets](/wiki/Community/Projects) • [Featured Artists](/wiki/Featured_Artists) • [Project Loved](/wiki/Community/Project_Loved) • [osu! community meetings](/wiki/Community/osu!_community_meetings) • [osu!academy](/wiki/Community/Video_series/osu!academy) • [osu!mapping](/wiki/Community/Video_series/osu!mapping) • [osu!talk](/wiki/Community/Video_series/osu!talk)
 
 Organisations : [osu! UCI](/wiki/Community/Organisations/osu!_UCI)
 
@@ -109,9 +111,9 @@ Organisations : [osu! UCI](/wiki/Community/Organisations/osu!_UCI)
 
 osu! n'aurait pas été possible sans les nombreux utilisateurs qui participent au développement, à la maintenance et à la gestion de la communauté : leurs efforts, leur temps et leur dévouement font vivre et prospérer le jeu.
 
-[L'équipe](/wiki/People/The_Team) : [Développeurs](/wiki/People/The_Team/Developers) • [Global Moderation Team](/wiki/People/The_Team/Global_Moderation_Team) • [Équipe du support](/wiki/People/The_Team/Support_Team) • [Nomination Assessment Team](/wiki/People/The_Team/Nomination_Assessment_Team) • [Beatmap Nominators](/wiki/People/The_Team/Beatmap_Nominators) • [osu! Alumni](/wiki/People/The_Team/osu!_Alumni) • [Project Loved Team](/wiki/People/The_Team/Project_Loved_Team)
+[L'équipe](/wiki/People/The_Team) : [Développeurs](/wiki/People/The_Team/Developers) • [Global Moderation Team](/wiki/People/The_Team/Global_Moderation_Team) • [Équipe du support](/wiki/People/The_Team/Support_Team) • [Nomination Assessment Team](/wiki/People/The_Team/Nomination_Assessment_Team) • [Beatmap Nominators](/wiki/People/The_Team/Beatmap_Nominators) • [osu! Alumni](/wiki/People/The_Team/osu!_Alumni) • [Project Loved Team](/wiki/People/The_Team/Project_Loved_Team) • [Beatmap Spotlight Curators](/wiki/People/The_Team/Beatmap_Spotlight_Curators)
 
-[Les contributeurs de la communauté](/wiki/People/Community_Contributors) • [Utilisateurs ayant des titres uniques](/wiki/People/Users_with_unique_titles) • [Comité des tournois](/wiki/People/Tournament_Committee) • [Comité des points de performance](/wiki/People/Performance_Points_Committee)
+[Les contributeurs de la communauté](/wiki/People/Community_Contributors) • [Utilisateurs ayant des titres uniques](/wiki/People/Users_with_unique_titles) • [Comité des tournois](/wiki/People/Tournament_Committee) • [Comité des points de performance](/wiki/People/Performance_Points_Committee) • [Maintainers de l'osu! wiki](/wiki/People/osu!_wiki_maintainers)
 
 </div>
 <div class="wiki-main-page-panel">

@@ -1,3 +1,8 @@
+---
+outdated_translation: true
+outdated_since: 5f10ef5c2d3a1926ac10d4b6e48fa574eb4ca2ae
+---
+
 # Communauté
 
 Cette page répertorie les moyens par lesquels les utilisateurs de tout le site d'osu! peuvent entrer en contact les uns avec les autres. Si vous êtes à la recherche d'opportunités de contribution, mais ne savez pas par où commencer, assurez-vous de lire [Comment vous pouvez aider !](/wiki/Community/How_you_can_help!).
@@ -8,6 +13,7 @@ Cette page répertorie les moyens par lesquels les utilisateurs de tout le site 
 - [Internet Relay Chat](/wiki/Community/Internet_Relay_Chat) (IRC)
 - [Organisations hors ligne](/wiki/Community/Organisations)
 - [Serveur Discord osu!dev](/wiki/Community/osu!dev_Discord_server)
+- [Serveurs Discord communautaires](/wiki/Community/Discord_servers)
 
 ## Projets
 

@@ -16,9 +16,10 @@
 | ![Аватар osu!](img/osugame.jpg) | [@osugame](https://twitter.com/osugame) | Официальный источник новостей. |
 | ![Аватар BanchoBoat](img/banchoboat.jpg) | [@banchoboat](https://twitter.com/banchoboat) | Комедийный аккаунт для случаев, когда что-то идёт не по плану. |
 | ![Аватар NAT](img/osu_nat.png) | [@osu_nat](https://twitter.com/osu_nat) | Новости и короткие опросы от [NAT](/wiki/People/The_Team/Nomination_Assessment_Team) (не ведётся официальной [командой osu!](/wiki/People/The_Team)). |
+| ![Аватар комитета PP](img/ppcommittee.png) | [@pp_committee](https://twitter.com/pp_committee) | Анонсы пересчёта сложности карт в разных игровых режимах, которые выпускает [комитет по очкам производительности](/wiki/People/Performance_Points_Committee). |
 
 ## Личные аккаунты
 
 | Аватар | Юзернейм | Описание |
 | :-: | :-: | :-- |
-| ![Аватар Dean Herbert](img/ppy.jpg) | [@ppy](https://twitter.com/ppy) | Личный блог [создателя osu!](/wiki/People/peppy), в значительной части относящийся к игре. |
+| ![Аватар Dean Herbert](img/ppy.jpg?2) | [@ppy](https://twitter.com/ppy) | Личный блог [создателя osu!](/wiki/People/peppy), в значительной части относящийся к игре. |

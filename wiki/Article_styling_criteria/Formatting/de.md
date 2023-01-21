@@ -1,6 +1,5 @@
 ---
-outdated_since: f5cbe6d8793eeb5aeec9376259b23bdbdbc1e84b
-outdated_translation: true
+no_native_review: true
 ---
 
 # Formatierung
@@ -45,7 +44,7 @@ Im Folgenden werden alle vom Wiki unterstützten Locales aufgelistet:
 | `zh.md` | Chinesisch (Vereinfacht) | 简体中文 |
 | `zh-tw.md` | Traditionelles Chinesisch (Taiwan) | 繁體中文（台灣） |
 
-*Tipp: Die Webseite wird für einen Artikel die ausgewählte Sprache des Lesers wählen. Sollte der Artikel in dieser Sprache nicht verfügbar sein, wird die englische Version angezeigt.*
+*Anmerkung: Die Webseite wird für einen Artikel die ausgewählte Sprache des Lesers wählen. Sollte der Artikel in dieser Sprache nicht verfügbar sein, wird die englische Version angezeigt.*
 
 ## Titelsektion
 
@@ -53,7 +52,7 @@ Metainformationen müssen sich ganz am Anfang der Datei befinden. Sie sind in [Y
 
 ### Artikel, die Hilfe benötigen
 
-*Tipp: Es wird empfohlen, englische Artikel mit diesem Tag nicht zu übersetzen. Ebenso sollte dieses Tag hinzugefügt werden, wenn die Übersetzung selbst aufgeräumt werden muss.*
+*Anmerkung: Es wird empfohlen, englische Artikel mit diesem Tag nicht zu übersetzen. Ebenso sollte dieses Tag hinzugefügt werden, wenn die Übersetzung selbst aufgeräumt werden muss.*
 
 Das Tag `needs_cleanup` darf bei Artikeln, die überarbeitet werden müssen oder Formatierungshilfe benötigen, hinzugefügt werden. Es ist auch akzeptabel, ein Issue auf GitHub für diesen Zweck zu öffnen. Benutze dieses Tag wie folgt:
 
@@ -65,7 +64,7 @@ Sofern dieses Tag zu einem Artikel hinzugefügt wird, sollten [Kommentare](#komm
 
 ### Nicht mehr aktuelle Artikel
 
-*Tipp: Es wird empfohlen, englische Artikel mit diesem Tag nicht zu übersetzen. Wenn der englische Artikel diesen Tag trägt, dann muss die Übersetzung das ebenfalls.*
+*Anmerkung: Es wird empfohlen, englische Artikel mit diesem Tag nicht zu übersetzen. Wenn der englische Artikel diesen Tag trägt, dann muss die Übersetzung das ebenfalls.*
 
 Englische Artikel können veraltet sein, wenn ihr Inhalt falsch, nicht eindeutig oder nicht mehr relevant ist. Diese Artikel sollten mit dem Tag `outdated` gekennzeichnet werden, welches folgendermaßen geschrieben werden muss:
 
@@ -105,7 +104,7 @@ tags:
 
 ### Übersetzungen ohne Überprüfungen
 
-*Tipp: Wiki-Verwalter werden diese Markierung vor dem Mergen setzen, falls notwendig.*
+*Anmerkung: Wiki-Verwalter werden diese Markierung vor dem Mergen setzen, falls notwendig.*
 
 Manchmal werden Artikel ohne eine Überprüfung eines Muttersprachlers dem Wiki hinzugefügt. In diesem Fall muss die Markierung `no_native_review` gesetzt werden, damit zukünftige Übersetzer wissen, dass der Artikel gegebenenfalls nochmals überprüft werden muss. Dieses Tag muss folgendermaßen geschrieben werden:
 
@@ -262,7 +261,7 @@ Kopfnoten mit *Für andere Bedeutungen* sind den Kopfnoten mit *Nicht zu verwech
 Ein Hinweis sollte an eine angemessene Stelle in einem Abschnitt platziert werden, allerdings muss dafür ein neuer Paragraf angefangen werden, der Kursivschrift nutzt. Hinweise dürfen Fettschrift enthalten, sofern angemessen, aber dies sollte auf ein Minimum begrenzt werden. Hinweise müssen als ganze Sätze geschrieben werden. Damit müssen Hinweise, nicht wie die meisten [Kopfnoten](#kopfnote), einen Punkt (`.`) oder ein Ausrufezeichen (`!`) verwenden. Alles in einem Paragrafen eines Hinweises muss kursiv sein. Diese Kopfnoten müssen wie folgt formatiert werden:
 
 ```markdown
-*Tipp: {Tipp}.*
+*Anmerkung: {Anmerkung}.*
 
 *Hinweis: {Hinweis}.*
 
@@ -271,7 +270,7 @@ Ein Hinweis sollte an eine angemessene Stelle in einem Abschnitt platziert werde
 *Warnung: {Warnung}.*
 ```
 
-- `Tipp` sollte für Fakten oder triviale Details genutzt werden.
+- `Anmerkung` sollte für Fakten oder triviale Details genutzt werden.
 - `Hinweis` sollte für Erinnerungen genutzt werden oder um den Leser auf etwas aufmerksam zu machen.
 - `Vorsicht` sollte genutzt werden, um den Leser vor unbeabsichtigten Konsequenzen zu warnen.
 - `Warnung` sollte genutzt werden, um den Leser zu warnen, dass gegebenenfalls Maßnahmen gegen ihn ergriffen werden.
@@ -545,7 +544,7 @@ Links müssen den Inline-Stil benutzen, wenn sie nur einmal referenziert werden.
 
 ### Interne Links
 
-*Tipp: Mit internen Links sind Links gemeint, die in der Domäne `https://osu.ppy.sh/` liegen.*
+*Anmerkung: Mit internen Links sind Links gemeint, die in der Domäne `https://osu.ppy.sh/` liegen.*
 
 #### Wiki-Links
 
@@ -668,6 +667,8 @@ Es gibt zwei Arten von Bildlinks: Inline und als Verweis. Beispiele:
 
 Bilder sollten den Inline-Stil verwenden. Definitionen für Verweise müssen am Ende des Artikels platziert werden.
 
+Alle Blockbilder auf der Seite (die nichts anderes in der gleichen Zeile haben) werden in eine einzige Galerie kombiniert, die mit den beiden Pfeilen am Rand des Bildschirms, Tastenkürzeln oder Bildschirmwischen auf mobilen Geräten bedient werden kann<!-- https://github.com/ppy/osu-web/pull/8126 -->.
+
 ### Alternative und Titeltexte
 
 Der Text in den ersten eckigen Klammern (*alternativer Text*) sollte das Bild wörtlich beschreiben. Dies wird von Bildschirmlesegeräten benutzt und wird angezeigt, falls das Bild nicht geladen werden kann. Es kann weggelassen werden, wenn es identisch mit dem Titeltext ist oder wenn das Bild nur aus dekorativen Zwecken enthalten ist.
@@ -678,9 +679,9 @@ Der Text in Anführungszeichen (*Titeltext*) sollte zusätzlichen Kontext zum Bi
 
 Wenn ein Bild der einzige Inhalt eines Absatzes ist, dann wird dieses als zentrierter Block angezeigt. Ansonsten liegt es dynamisch im umgebenden Inline-Text.
 
-Blockbilder mit einem Titeltext zeigen den Titeltext als Bildunterschrift unter dem Bild an.
+Blockbilder mit einem Titeltext zeigen den Titeltext als Bildunterschrift unter dem Bild an. Vermeide das Hinzufügen von [HTML-Kommentaren](#kommentare) oder beliebig anderem Text auf derselben Linie wie das Bild, da da dies dazu führt, dass die Unterschrift nicht angezeigt wird.
 
-Blockbilder werden häufig mit einer Infobox<!-- TODO: link me! --> zusammen formatiert, um die anfängliche Größe zu reduzieren und sie neben anderen Inhalten zu platzieren:
+Blockbilder werden häufig mit einer [Infobox](#infoboxen) zusammen formatiert, um die anfängliche Größe zu reduzieren und sie neben anderen Inhalten zu platzieren:
 
 ```markdown
 ::: Infobox
@@ -742,7 +743,7 @@ Alle Screenshots des Spielverlaufs müssen in der Updatequelle Stable gemacht we
 
 #### Einstellungen des Spiel-Clients
 
-*Tipp: Wenn du deine aktuellen Einstellungen für das Wiki nicht ändern möchtest, dann kannst du die Datei `osu!.<ComputerUser>.cfg` aus deinem osu!-Ordner entfernen und später wieder hinzufügen.*
+*Anmerkung: Wenn du deine aktuellen Einstellungen für das Wiki nicht ändern möchtest, dann kannst du die Datei `osu!.<ComputerUser>.cfg` aus deinem osu!-Ordner entfernen und später wieder hinzufügen.*
 
 Du musst diese Einstellungen im Spiel-Client haben, bevor du einen Screenshot erstellst (Einstellungen, die unten nicht genannt werden, sollten auf ihrem Standardwert stehen):
 
@@ -762,25 +763,15 @@ Du musst diese Einstellungen im Spiel-Client haben, bevor du einen Screenshot er
 
 Bilder dürfen nicht Teil eines Linktextes sein.
 
-Flaggensymbole neben Links zu Benutzern müssen vom Linktext getrennt sein. Siehe folgendes Beispiel:
+## Flaggensymbole
+
+Die Flaggensymbole benutzen eine Zwei-Buchstaben-Kodierung (alle in Großschreibweise) und sind einem bestimmten Gebiet zugeordnet. Benutze beim Inline-Hinzufügen eines Symbols dieses Format:
 
 ```markdown
-![][flag_AU] [peppy](https://osu.ppy.sh/users/2)
+::{ flag=XX }::
 ```
 
-### Flaggensymbole
-
-*Für eine Liste der Flaggensymbole, siehe: [Issue \#328](https://github.com/ppy/osu-wiki/issues/328)*
-
-Die Flaggensymbole benutzen eine Zwei-Buchstaben-Kodierung (alle in Großschreibweise) und enden in `.gif`. Benutze beim Inline-Hinzufügen eines Symbols dieses Format:
-
-```markdown
-![](/wiki/shared/flag/xx.gif)
-```
-
-Wobei `xx` der [ISO 3166-2](https://de.wikipedia.org/wiki/ISO-3166-1-Kodierliste) zwei-Buchstaben Ländercode für die Flagge ist.
-
-Der volle Ländername sollte in den Titeltext eingefügt werden. Der Ländercode im alternativen Text ist optional, aber muss bei allen Flaggen im Artikel angewendet werden.
+Wobei `XX` der [ISO 3166-2](https://de.wikipedia.org/wiki/ISO-3166-1-Kodierliste) zwei-Buchstaben Ländercode für die Flagge ist.
 
 ## Tabellen
 
@@ -808,13 +799,40 @@ Das folgende ist ein Beispiel, wie eine Tabelle aussehen sollte:
 | Maria | Kein ausgetragenes Spiel | Mocha |  |
 ```
 
+## Infoboxen
+
+Eine Infobox ist ein Block mit fester Breite, der an der rechten Seite des Artikels ausgerichtet ist. Er kann ein relevantes Bild enthalten, das den umgebenden Text erklärt, oder einen Navigationsblock, der auf andere Artikel derselben Kategorie verweist.
+
+Beispielverwendung, auf der rechten Seite sichtbar (oder oben auf schmalen Bildschirmen):
+
+<!-- The real infobox is added for illustrative purposes, with Markdown syntax duplicated below for clarity. -->
+
+::: Infobox
+![](/wiki/shared/mods/SD.png "Symbol der Mod Sudden Death")
+:::
+
+```markdown
+::: Infobox
+![](/wiki/shared/mods/SD.png "Symbol der Mod Sudden Death")
+:::
+```
+
+Infoboxen sollten in den folgenden Fällen mit Vorsicht genutzt werden:
+
+- Kurze Abschnitte: Die Überschrift der nächsten Sektion erscheint unter jeder Infobox, wodurch eine große Lücke nach dem Text entsteht.
+- Mehrere Bilder auf einmal: Benutze stattdessen einzelne Infoboxen für ein besseres Design.
+
+Nur Überschriftenebene 4 und 5 sind innerhalb einer Infobox erlaubt. Diese erscheinen nicht im Inhaltsverzeichnis und alles darunter ist zu groß. Eventuelle [CI-Prüfungsfehler](/wiki/osu!_wiki/Maintenance#ci-checks) müssen deshalb umgangen werden.
+
 ## Fußnoten
 
 Fußnoten sind kurze Notizen am Ende einer Seite. Sie werden zum Zitieren von Quellen oder dem Bereitstellen von Hintergrundinformationen verwendet, die ansonsten den Lesefluss des Artikels beeinträchtigen würden. Fußnoten dürfen formatierten Text und Links enthalten.
 
-Im osu!-Wiki werden Fußnoten mit einer speziellen Syntax (`[^identifier]`) implementiert. Fußnoten können jede Kennung haben, werden aber automatisch als hochgestellte Zahlen mit steigendem Wert in der Reihenfolge ihres ersten Erscheinens erstellt. Die Fußnoten selbst müssen in einem separaten Abschnitt mit dem Überschriftenlevel 2 am Ende des Artikels platziert werden. Abhängig von Inhalt muss die Überschrift `Referenzen`, `Anmerkungen` oder `Anmerkungen und Referenzen` sein.
+Im osu!-Wiki werden Fußnoten mit einer speziellen Syntax (`[^identifier]`) implementiert. Fußnoten können jede Kennung haben, werden aber automatisch als hochgestellte Zahlen mit steigendem Wert in der Reihenfolge ihres ersten Erscheinens erstellt. Übersetzungen dürfen die Kennungen von Fußnoten nicht modifizieren.
 
 Verweise auf Fußnoten werden direkt nach den Wörtern oder Sätzen platziert, die sie erklären, ohne Leerzeichen dazwischen. Diese Verweise müssen nach der Interpunktion gesetzt werden, mit Ausnahme von Gedankenstrichen und Klammern, sofern sie sich auf den Inhalt darin beziehen.<!-- Translated from https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style#Punctuation_and_footnotes -->
+
+Die Fußnoten selbst müssen in einem separaten Abschnitt mit dem Überschriftenlevel 2 am Ende des Artikels platziert werden. Abhängig vom Inhalt muss die Überschrift `Referenzen`, `Anmerkungen` oder `Anmerkungen und Referenzen` sein.
 
 Beispiele der korrekten Benutzung:
 
@@ -832,15 +850,19 @@ Das osu!-Wiki ist ein Projekt, das das alte FAQ-System ersetzen sollte.[^wiki-fa
 
 Zitate oder Referenzen werden benutzt, um eine Informationsquelle zu identifizieren. Zitate in Fußnoten sollten gegenüber Inline-Links bevorzugt werden.
 
-Beispiel:
+Referenzen sollten, wann immer zutreffend, den Autor, das Datum, den Dienst/die Plattform und den Titel angeben. Das exakte Format darf abhängig vom referenzierten Material variieren, wobei Kürze präferiert wird.
+
+Beispiele:
 
 ```markdown
-Die erste Version der osu!api wurde am 2. Juli 2013 zur Verfügung gestellt.[^api-first-usage] Es wurde von den Nutzern gelobt.[^api-praise]
+Die erste Version der osu!api wurde am 2. Juli 2013 zur Verfügung gestellt.[^api-first-usage] Es wurde von den Nutzern gelobt.[^api-praise] Eine neue Version des API, mehrere Jahre später veröffentlicht, enthält viele weitere Funktionen.[^api-v2-2020] Endpunktversionierung ist bei Web-APIs üblich.[^web-api]
 
 ## Referenzen
 
-[^api-first-usage]: [osu!api open beta](https://osu.ppy.sh/community/forums/posts/2403913)
-[^api-praise]: [osu!api open beta](https://osu.ppy.sh/community/forums/posts/2662247)
+[^api-first-usage]: [Forumsbeitrag von peppy (02.07.2013) "osu!api open beta"](https://osu.ppy.sh/community/forums/posts/2403913)
+[^api-praise]: [Forumsbeitrag von Menchi (02.11.2013) in "osu!api open beta"](https://osu.ppy.sh/community/forums/posts/2662247)
+[^api-v2-2020]: [Tweet von @ppy (20.03.2020)](https://twitter.com/ppy/status/1263083636363948032)
+[^web-api]: ["Web API" auf Wikipedia (Englisch)](https://en.wikipedia.org/wiki/Web_API)
 ```
 
 ### Anmerkungen
